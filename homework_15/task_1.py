@@ -2,7 +2,6 @@ from flask import Flask, request, jsonify
 import psycopg2
 
 app = Flask(__name__)
-app.debug = True
 conn = psycopg2.connect(dbname='lessflask', user='postgres', password='Asdcvbjkl763', host='localhost')
 
 
